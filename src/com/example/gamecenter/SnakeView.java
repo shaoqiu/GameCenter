@@ -45,6 +45,7 @@ public class SnakeView extends View {
 	public void pause()
 	{
 		status = PAUSE;
+
 	}
 	//...........................状态..................................
 
