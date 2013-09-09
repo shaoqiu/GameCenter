@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0E0E0"
+        android:orientation="horizontal"
+         >
+
+        <ImageButton
+            android:id="@+id/snake"
+            android:src="@drawable/snake"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClicked"
+            android:scaleType="fitXY"
+            />
+
+        <ImageButton
+            android:id="@+id/mine"
+            android:src="@drawable/mine_tran"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:onClick="onClicked"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+</LinearLayout>

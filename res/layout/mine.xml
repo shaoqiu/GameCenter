@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/new_game_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="newGame"
+            android:layout_weight="1"
+            android:src="@drawable/face_smile" />
+
+        <TextView
+            android:id="@+id/flag_total_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="00/00" />
+
+        <Chronometer
+            android:id="@+id/timer"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#E0E0E0"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>
